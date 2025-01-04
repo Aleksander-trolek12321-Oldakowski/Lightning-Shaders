@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Shader-Lightning.sln"
+    "dotnet.defaultSolution": "Lightning-Shaders.sln"
 }
