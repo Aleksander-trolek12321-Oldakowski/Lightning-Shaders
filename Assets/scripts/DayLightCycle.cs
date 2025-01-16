@@ -5,8 +5,7 @@ using UnityEngine;
 public class DayLightCycle : MonoBehaviour
 {
     [SerializeField] LightCycle _lightCycle;
-    [SerializeField] int StartDay = 6;
-    [SerializeField] int EndDay = 18;
+    [SerializeField] int dayDuration;
 
     private float timeIncrement;
     private float totalSeconds;
@@ -19,15 +18,7 @@ public class DayLightCycle : MonoBehaviour
             return;
         }
 
-        int dayDurationInHours = EndDay - StartDay;
-        if (dayDurationInHours <= 0)
-        {
-            Debug.LogError("Koniec dnia musi być późniejszy niż początek dnia!");
-            return;
-        }
-
-        totalSeconds = dayDurationInHours * 60f;
-        timeIncrement = 1f / totalSeconds;
+        timeIncrement = 1f / dayDuration;
 
         StartCoroutine("DayCycle");
     }

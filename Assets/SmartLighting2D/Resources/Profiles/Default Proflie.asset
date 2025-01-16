@@ -62,7 +62,7 @@ MonoBehaviour:
     - name: Regular
       layerSetting:
         list:
-        - layerID: 1
+        - layerID: 0
           type: 0
           sorting: 6
           sortingIgnore: 0
@@ -100,6 +100,7 @@ MonoBehaviour:
       names:
       - Default
       - Collider Layer 1
+      - Player
     lightLayers:
       names:
       - FOW
