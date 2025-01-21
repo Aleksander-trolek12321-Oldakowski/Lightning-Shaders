@@ -34,4 +34,4 @@ MonoBehaviour:
   MaxLightSize: 100
   materialOffScreen: 0
   disable: 0
-  profile: {fileID: 11400000, guid: 744af7d72c977154f8a4489ba6ae519d, type: 2}
+  profile: {fileID: 11400000, guid: 0cf667de16a36654d94bd0d6d0e711d9, type: 2}
